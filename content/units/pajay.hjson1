@@ -1,0 +1,47 @@
+name: pajay
+type: tank
+outlineColor: 1B1E26FF
+treadPullOffset: 3
+treadRects:[{
+x: 0
+width: 10
+height: 10
+}
+]
+flying: false
+health: 500
+armor: 1
+speed: 0.75
+rotateSpeed: 3.5
+hitSize: 15
+rotateMoveFirst: true
+omniMovement: false
+weapons:[
+{
+name: pajay-weapon
+reload: 50
+shootY: 7
+rotate: true
+rotateSpeed: 2.2
+pirror: false
+alternate: false
+range: 40
+top: true
+x: 0
+y: -1
+bullet: { 
+type: BasicBulletType
+collideaAir: true
+width: 5
+heigt: 7
+lifetime: 40
+hitSize: 4
+damage: 20
+speed: 5
+hitColor: FF0000FF
+backColor: 841D14FF
+trailColor: FF0000FF
+frontColor: FF0000FF
+}
+}
+]

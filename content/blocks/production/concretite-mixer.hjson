@@ -1,0 +1,72 @@
+type: GenericCrafter
+category: crafting
+size: 2
+health: 700
+itemCapacity: 30
+liquidCapacity: 10
+name: concretite-mixer
+localizedName: Миксерная печь конкрецита
+craftEffect:{
+type: ParticleEffect
+    particles: 5
+    sizeFrom: 3.5
+    sizeTo: 2.6
+    length: 5
+    interp: fastSlow
+    lightColor: FFCD66FF
+    colorFrom: E28654FF
+    colorTo: FFFFA3FF
+    cone: 360
+}
+
+craftTime: 30
+consumes: {
+    power: 0.5
+    items: [
+	       	concretite/2
+	]
+    liquid: slag/0.03
+}
+outputItem: slagblock/1
+
+drawer: {
+	type: DrawMulti
+        drawers: [
+                 {
+        type: DrawRegion
+        suffix: -bottom
+        }
+                        {
+        type: DrawLiquidTile
+        suffix: -liquid
+        drawLiquid: slag
+        }
+          {
+        type: DrawDefault
+        }
+                {
+        type: DrawRegion
+        suffix: -rotator
+        rotateSpeed: -4
+        spinSprite: true
+  }
+        {
+        type: DrawRegion
+        suffix: -top
+        }
+        ]
+        }
+requirements: [
+    pakmetal/350
+    redton/200
+]
+research: {
+    parent: pakmetal-drill
+    requirements: [
+        pakmetal/1000
+        redton/600
+        ]
+	objectives: [
+	    concretite
+	]
+}

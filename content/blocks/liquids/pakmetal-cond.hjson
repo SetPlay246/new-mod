@@ -1,0 +1,19 @@
+  type: conduit
+  name: pak-metal-cound
+  localizedName: Труба из пак-метала
+  health: 60
+  liquidPressure: 1
+bridgeReplacement: pakmetal-liquid-most
+junctionReplacement: pakmetal-liquid-junction
+  requirements: [
+    pakmetal/2
+    redton/1
+   ]
+  category: liquid
+  research: {
+    parent: pakmetal-pomp
+    requirements: [
+        pakmetal/200
+        redton/100
+        ]
+  }

@@ -1,0 +1,4 @@
+{
+            type: CompletedSector
+            preset: avar
+        },

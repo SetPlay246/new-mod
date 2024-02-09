@@ -1,0 +1,69 @@
+name: pakmetal turet
+localizedName: Турель из пак-металла
+size: 2
+outlineColor: 1B1E26FF
+requirements: [
+pakmetal/150
+]
+type: ItemTurret
+shootSound: bang
+range: 210
+rotateSpeed: 3.2
+health: 600
+category: turret
+reload: 50
+shootY: 14
+research: {
+    parent: start-pod
+    requirements: [
+        pakmetal/200
+        ]
+	objectives: [
+	    pakmetal-drill
+	]
+}
+drawer: {
+    type: drawTurret
+    basePrefix: ferea-
+}
+
+
+ammoTypes: {
+redton:{
+	type: standardCopper
+	lifetime: 40
+	speed: 5
+	width: 7
+	height: 8
+	damage: 30
+	sprite: bullet
+	collideaAir: true
+	trailColor: 841D14FF
+	frontColor: FF0000FF
+	backColor: 841D14FF
+hitEffect:{
+type: ParticleEffect
+line: true
+particles: 6
+sizeFrom: 4
+sizeTo: 2
+length: 30
+lightColor: C92B1CFF
+colorFrom: 841D14FF
+colorTo: FF0000FF
+cone: 90
+}
+despawnEffect: {
+type: ParticleEffect
+particles: 7
+sizeFrom: 3
+sizeTo: 1
+length: 20
+interp: circleOut
+lightColor: C92B1CFF
+colorFrom: 7F7F7FFF
+colorTo: A2A2A2FF
+cone: 10
+}
+	}
+}

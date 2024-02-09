@@ -1,0 +1,18 @@
+type: OverflowGate
+name: Конвеерный избыточный затвор из пак-метала
+description: Выводит предметы по бокам, если передний путь заблокирован
+health: 80
+invert: true
+category: distribution
+    research: {
+        parent: pakmetal-router
+        requirements: [
+            pakmetal/400
+            redton/200
+     ]
+    },
+
+    requirements: [
+        pakmetal/10
+        redton/4
+    ]

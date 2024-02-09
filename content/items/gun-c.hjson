@@ -1,0 +1,17 @@
+type: material
+name: cannon
+localizedName: Запчасти для сборки пушки
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+color: 4A4B53FF
+cost: 1
+size: 2
+hiddenOnPlanets: [
+serpulo
+erekir
+]
+hardness: 1
+research: {
+    parent: gun-factory
+}

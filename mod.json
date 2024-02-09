@@ -1,0 +1,10 @@
+{
+ "name": "new mod",
+ "displayName": "global setplay's planet mod",
+ "author": "SetPlay",
+ "description": "mod for proect",
+ "version": "1",
+
+ "minGameVersion": "142",
+ "dependencies": []
+}

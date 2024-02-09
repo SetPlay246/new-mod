@@ -1,0 +1,19 @@
+  type: LiquidBridge
+  name: pak-metal-liquid-most
+  localizedName: Мостовой трубопровод из пак-метала
+  health: 160
+  hasPower: false
+  range: 5
+  liquidPressure: 1
+  requirements: [
+    pakmetal/25
+    redton/15
+   ]
+  category: liquid
+  research: {
+  parent: pakmetal-liquid-junction
+  requirements: [
+        pakmetal/400
+        redton/200
+        ]
+  }

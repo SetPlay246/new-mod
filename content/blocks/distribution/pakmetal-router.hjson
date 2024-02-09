@@ -1,0 +1,18 @@
+type: Router
+    category: distribution
+    name: pak-metal-router
+    localizedName: Конвеер маршрутизатор из пак-метала
+    health: 60
+
+    research: {
+        parent: pakmetal-conw
+        requirements: [
+            pakmetal/40
+            redton/20
+        ]
+    },
+
+    requirements: [
+        pakmetal/4
+        redton/2
+    ]

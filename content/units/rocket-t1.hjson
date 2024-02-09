@@ -1,0 +1,33 @@
+type: missile
+template: MissileUnitType
+outlineColor: 1B1E26FF
+health: 30
+lowAltitude: true
+lifetime: 130
+speed: 3.4
+drawCell: false
+rotateSpeed: 5
+homingDelay: 20
+targetAir: true
+trailLength: 8
+engineSize: 1.5
+engineColor: C92B1CFF
+trailColor: FF1500FF
+engineOffset: 4.4
+
+fogRadius: 0
+deathSound: explosion
+weapons: [
+	{
+	shootCone: 360
+	shootOnDeath: true
+	bullet: {
+		type: ExplosionBulletType
+		damage: 50
+		splashDamage: 70
+		splashDamageRadius: 30
+		shootEffect: explosion
+		collidesAir: true
+		}
+	}
+]

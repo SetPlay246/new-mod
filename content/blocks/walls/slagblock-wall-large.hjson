@@ -1,0 +1,16 @@
+type: Wall
+    category: defense
+    size: 2
+
+    health: 2000
+
+    research: {
+        parent: slagblock-wall
+        requirements: [
+            slagblock/200
+        ]
+    }
+
+    requirements: [
+        slagblock/45
+    ]

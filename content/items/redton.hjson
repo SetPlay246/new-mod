@@ -1,0 +1,16 @@
+type: material
+name: redton
+localizedName: Крастон
+explosiveness: 0
+flammability: 0
+radioactivity: 0.1
+color: C92B1CFF
+cost: 1
+hiddenOnPlanets: [
+serpulo
+erekir
+]
+hardness: 1
+research: {
+    parent: start-pod
+}

@@ -1,0 +1,19 @@
+  type: BeamNode
+  range: 16
+  name: pak-metal-eam
+  localizedName: энергетичесий узел из пак-матала
+  health: 60
+  size: 1
+  category: power
+  requirements: 
+  [
+  pakmetal/10
+  redton/3
+  ]
+research: {
+    parent: pakmetal-gen
+    requirements: [
+        pakmetal/700
+        redton/400
+        ]
+}

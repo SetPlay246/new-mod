@@ -1,0 +1,18 @@
+  type: LiquidJunction
+  name: pak-metal-liquid-junction
+  localizedName: Трубный перекрёсток из пак-метала
+  health: 120
+  hasPower: false
+  liquidPressure: 1
+  requirements: [
+    pakmetal/10
+    redton/4
+   ]
+  category: liquid
+  research: {
+  parent: pakmetal-liquid-router
+  requirements: [
+        pakmetal/200
+        redton/100
+        ]
+  }

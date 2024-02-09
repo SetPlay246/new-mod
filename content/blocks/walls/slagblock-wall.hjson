@@ -1,0 +1,16 @@
+type: Wall
+    category: defense
+    size: 1
+
+    health: 400
+
+    research: {
+        parent: pakmetal-tur
+        requirements: [
+            slagblock/50
+        ]
+    }
+
+    requirements: [
+        slagblock/15
+    ]

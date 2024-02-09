@@ -1,0 +1,17 @@
+type: Sorter
+name: pak-metal-sorter
+localizedName: Конвеерный сортировщик из пак-метала
+description: Пропускает выбранный предмет в перед
+health: 80
+    research: {
+        parent: pakmetal-router
+        requirements: [
+            pakmetal/400
+            redton/200
+        ]
+    },
+
+    requirements: [
+        pakmetal/10
+        redton/4
+    ]

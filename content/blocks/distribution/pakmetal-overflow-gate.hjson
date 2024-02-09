@@ -1,0 +1,18 @@
+type: OverflowGate
+name: pak-metal-over-gate
+localizedName: Конвеерный избыточный шлюз
+description: Выводит предметы вперёд, только если боковые пути заблокированы
+health: 80
+category: distribution
+    research: {
+        parent: pakmetal-underflow-gate
+        requirements: [
+            pakmetal/400
+            redton/200
+     ]
+    },
+
+    requirements: [
+        pakmetal/10
+        redton/4
+    ]

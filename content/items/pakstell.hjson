@@ -1,0 +1,16 @@
+type: material
+name: pakstell
+localizedName: Пак-сталь
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+color: 28292DFF
+cost: 1
+hiddenOnPlanets: [
+serpulo
+erekir
+]
+hardness: 1
+research: {
+    parent: pakmetal
+}

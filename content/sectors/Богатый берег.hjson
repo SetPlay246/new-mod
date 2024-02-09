@@ -1,0 +1,17 @@
+{
+localizedName: Богатый берег
+difficulty: 2
+alwaysUnlocked: true
+addStartingItems: false
+captureWave: 12
+startWaveTimeMultiplier: 0
+showSectorLandInfo: false
+planet: ferea
+name: Богатый берег
+sector: 9
+loadout: start-pod
+"research": {
+            "parent": "Аварийная посадка"
+        
+}
+}

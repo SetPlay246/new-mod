@@ -1,0 +1,127 @@
+
+type: multicraft.MultiCrafter
+  localizedName: Сборщик вооружения
+  description: Собирает вооружение для дальнейшей сборки юнитов
+  health: 1200
+  itemCapacity: 20
+  size: 3
+craftEffect: {
+type: ParticleEffect
+    particles: 10
+    sizeFrom: 6
+    sizeTo: 5
+    length: 7
+    interp: fastSlow
+    lightColor: C92B1CFF
+    colorFrom: 841D14FF
+    colorTo: FF0000FF
+    cone: 360
+
+
+
+
+}
+drawer: {
+	type: DrawMulti
+        drawers: [
+                 {
+        type: DrawRegion
+        suffix: -bottom
+        }
+                        {
+        type: DrawLiquidTile
+        suffix: -liquid
+        drawLiquid: slag
+        }
+          {
+        type: DrawDefault
+        }
+                {
+        type: DrawRegion
+        suffix: -rotator
+        rotateSpeed: -8
+        spinSprite: true
+  }
+        {
+        type: DrawRegion
+        suffix: -top
+        }
+        ]
+        }
+  hasPower: true
+  hasItems: true
+
+  menu: Simple
+ recipes: 
+ [
+   {
+     input: {
+       items: [
+         new-mod-pakstell/15
+	 new-mod-redton/7
+       ],
+
+  power: 2
+
+     },
+     output: {
+       items: [
+         new-mod-gun-c/1
+       ]
+     },
+     craftTime: 600
+   },
+   {
+     input: {
+       items: [
+         new-mod-pakstell/15
+         new-mod-redton/5
+       ],
+	fluids: [
+	slag/0.03
+		],
+  
+  power: 2
+  
+     },
+     output: {
+       items: [
+         new-mod-gun-f/1
+       ]
+     }
+     craftTime: 600
+   },
+{
+     input: {
+       items: [
+         new-mod-pakstell/20
+	 new-mod-redton/10
+         new-mod-kiromanilite/30
+       ],
+
+  power: 2
+
+     },
+     output: {
+       items: [
+         new-mod-gun-r/1
+       ]
+     },
+     craftTime: 1000
+   }
+ ], 
+  requirements: [
+	  new-mod-slagblock/100
+	  new-mod-pakstell/50
+	  new-mod-redton/70
+  ]
+  category: crafting
+    research: {
+    parent: new-mod-pakstell-forge
+    requirements: [
+      new-mod-slagblock/400
+      new-mod-pakstell/200
+      new-mod-redton/280
+    ]
+  }
+

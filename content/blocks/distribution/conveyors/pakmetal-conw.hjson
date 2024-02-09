@@ -1,0 +1,24 @@
+  type: Conveyor
+  name: pakmetal-conw
+  localizedName: Конвеер из пак-метала
+  description: совсем простой и мало эффективный ковеер
+  category: distribution
+  speed: 0.075
+  displayedSpeed: 0.075
+  health: 50
+bridgeReplacement: pakmetal-conw-most
+junctionReplacement: pakmetal-junction
+  acceptsItems: true
+  requirements: [
+    pakmetal/1
+]
+
+research: {
+    parent: start-pod
+    requirements: [
+        pakmetal/25
+        ]
+	objectives: [
+	    pakmetal
+	]
+}

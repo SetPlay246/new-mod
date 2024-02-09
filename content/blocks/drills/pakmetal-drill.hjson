@@ -1,0 +1,21 @@
+name: pakmetal drill
+localizedName: Дрель из пак-металла
+  description: Простейшая установка для добычи простейших ископаемых
+  type: Drill
+  health: 100
+  size: 1
+  tier: 1
+  drillTime: 400
+  requirements: [
+    pakmetal/15
+  ]
+  category: production
+research: {
+    parent: start-pod
+    requirements: [
+        pakmetal/50
+        ]
+	objectives: [
+	    pakmetal
+	]
+}

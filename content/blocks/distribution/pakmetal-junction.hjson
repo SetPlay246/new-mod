@@ -1,0 +1,21 @@
+type: Junction
+    category: distribution
+    name: pak-metal-junction
+    localizedName: Конвеерный перекресток из пак-метала
+    health: 60
+
+    research: {
+        parent: pakmetal-conw
+        requirements: [
+            pakmetal/30
+            redton/10
+        ],
+        objectives: [
+            redton
+        ]
+    },
+
+    requirements: [
+        pakmetal/2
+        redton/1
+    ]

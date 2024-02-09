@@ -1,0 +1,47 @@
+type: ConsumeGenerator
+name: pak-metal-generator
+localizedName: Генератор из пак-металла
+health: 300
+size: 2
+powerProduction: 1
+hasliquid: true
+liquidCapacity: 10
+consumes: {
+    liquids: [
+slag/0.05
+]
+}
+drawer: {
+	type: DrawMulti
+        drawers: [
+                 {
+        type: DrawRegion
+        suffix: -bottom
+        }
+                        {
+        type: DrawLiquidTile
+        suffix: -liquid
+        drawLiquid: slag
+        }
+          {
+        type: DrawDefault
+        }
+                {
+        type: DrawGlowRegion
+        suffix: -glow
+        color: 00E572FF
+        }
+        ]
+        }
+category: power
+requirements: [
+    pakmetal/60
+    redton/20
+]
+research: {
+    parent: start-pod
+    requirements: [
+        pakmetal/1500
+        redton/600
+        ]
+}

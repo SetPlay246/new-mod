@@ -1,0 +1,56 @@
+type: GenericCrafter
+category: crafting
+size: 2
+health: 1300
+itemCapacity: 10
+name: Плавильня пак-стали
+craftEffect: {
+type: ParticleEffect
+line: true
+particles: 8
+sizeFrom: 4
+sizeTo: 3
+length: 30
+lightColor: 3CA370FF
+colorFrom: 3CA370FF
+colorTo: 8FDE5DFF
+cone: 360
+}
+
+craftTime: 60
+consumes: {
+    power: 1
+    items: [
+	       	pakmetal/2
+	]
+}
+outputItem: pakstell/1
+
+drawer: {
+	type: DrawMulti
+        drawers: [              
+  {
+        type: DrawDefault
+        }
+  {
+type: DrawFlame
+	flameColor: 72D377FF
+	}
+]
+}
+requirements: [
+    pakmetal/100
+    redton/50
+    slagblock/30
+]
+research: {
+    parent: concretite-mixer
+    requirements: [
+        slagblock/250
+        redton/200
+	pakmetal/400
+        ]
+	objectives: [
+	slagblock
+	]
+}

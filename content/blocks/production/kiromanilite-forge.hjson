@@ -1,0 +1,74 @@
+type: GenericCrafter
+category: crafting
+size: 2
+health: 1500
+hasLiquid: true
+liquidCopacity: 10
+itemCapacity: 15
+name: Плавильня Кироманилита
+craftTime: 90
+consumes: {
+    power: 1.5
+    items: [
+	       	redton/3
+	]
+    liquid: slag/0.02
+}
+outputItem: kiromanilite/1
+
+drawer: {
+	type: DrawMulti
+        drawers: [
+                 {
+        type: DrawRegion
+        suffix: -bottom
+        }
+                 {
+        type: DrawLiquidTile
+        suffix: -liquid
+        drawLiquid: slag
+        }          
+                 {
+        type: DrawDefault
+        }
+                 {
+        type: DrawRegion
+        suffix: -top
+        }
+        {
+        type: DrawFlame
+	flameColor: BD4882FF
+	}
+]
+}
+
+craftEffect:{
+type: ParticleEffect
+   line: true
+    particles: 5
+    sizeFrom: 4
+    sizeTo: 3.5
+    length: 22
+    
+    lightColor: BD4882FF
+    colorFrom: BA6EBBFF
+    colorTo: E49CE5FF
+    cone: 360
+}
+
+requirements: [
+    pakstell/70
+    redton/40
+    slagblock/60
+]
+research: {
+    parent: pakstell-forge
+    requirements: [
+	pakstell/400
+        slagblock/500
+        redton/400
+        ]
+	objectives: [
+	slagblock
+	]
+}

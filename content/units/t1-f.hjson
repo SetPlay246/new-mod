@@ -1,0 +1,111 @@
+name: pajay flamethrower
+type: tank
+outlineColor: 1B1E26FF
+treadPullOffset: 3
+research: {
+    parent: constr-tank
+	objectives: [
+	    gun-f
+	]
+}
+treadRects:[{
+x: 0
+width: 10
+height: 10
+}
+]
+flying: false
+health: 500
+armor: 1
+speed: 0.75
+rotateSpeed: 3.5
+hitSize: 15
+rotateMoveFirst: true
+omniMovement: false
+
+weapons:[
+{
+name: t1-flame
+reload: 10
+shootY: 4.5
+rotate: true
+rotateSpeed: 2.2
+mirror: false
+alternate: false
+range: 30
+top: true
+x: 0
+y: -1
+inaccuracy: 4
+recoil: 0
+shootSound: flame
+bullet: { 
+    type: BasicBulletType
+    collidesAir: true
+    lifetime: 20
+    despawnEffect: none
+    speed: 3.5
+    damage: 20
+    width: 0.01
+    height: 0.01
+    hitEffect: {
+type: ParticleEffect
+particles: 6
+sizeFrom: 4
+sizeTo: 2
+length: 10
+interp: circleOut
+lightColor: FFCD66FF
+colorFrom: 7F7F7FFF
+colorTo: A2A2A2FF
+cone: 10
+}
+
+    shootEffect: {
+    type: multiEffect
+    effects: [
+    {
+    type: ParticleEffect
+    particles: 4
+    sizeFrom: 4
+    sizeTo: 2
+    length: 70
+    lifetime: 25
+    interp: fastSlow
+    lightColor: FFCD66FF
+    colorFrom: E28654FF
+    colorTo: FFFFA3FF
+    cone: 10
+    },
+    {
+    type: ParticleEffect
+    particles: 5
+    sizeFrom: 3
+    sizeTo: 1
+    length: 80
+    lifetime: 35
+    interp: fastSlow
+    lightColor: FFCD66FF
+    colorFrom: E28654FF
+    colorTo: FFFFA3FF
+    cone: 7
+    }
+    {
+    type: ParticleEffect
+    particles: 4
+    sizeFrom: 3
+    sizeTo: 2
+    length: 80
+    lifetime: 35
+    interp: fastSlow
+    lightColor: E99F0CFF
+    colorFrom: C57348FF
+    colorTo: D4A23CFF
+    cone: 7
+    }
+]
+}
+}
+}
+]
+

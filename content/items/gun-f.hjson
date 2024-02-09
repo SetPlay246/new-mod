@@ -1,0 +1,17 @@
+type: material
+name: flamethower
+localizedName: Запчасти для сборки огнемёта
+explosiveness: 0
+flammability: 10
+radioactivity: 0
+color: 4A4B53FF
+cost: 1
+size: 2
+hiddenOnPlanets: [
+serpulo
+erekir
+]
+hardness: 1
+research: {
+    parent: gun-factory
+}

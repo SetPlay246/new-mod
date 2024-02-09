@@ -1,0 +1,56 @@
+
+type: flying
+flying: true
+outlineColor: 1B1E26FF
+health: 150
+armor: 2
+speed: 7
+controller: BuilderAI
+mineWalls: true
+mineFloor: true
+drag: 0.2
+accel: 0.1
+mineSpeed: 4
+mineTier: 1
+hitSize: 2
+itemCapacity: 50
+engineOffset: 7
+engineSize: 3
+buildSpeed: 0.6
+buildRange: 120
+faceTarget: true
+lowAltitude: true
+accel: 0.1
+
+targetAir: true
+
+coreUnitDock: true
+
+
+weapons: [
+{
+	name: first-gun
+	top: false
+	x: 3.88
+	y: 0
+	shootY: 2
+	reload: 25
+	recoil: 2
+	shootSound: pew
+	shake: 0.25
+	alternate: true
+	mirror: true
+	bullet: {
+	 type: BasicBulletType
+	 collideaAir: true
+	 width: 8
+	 height: 9
+	 damage: 30
+	 buildingDamageMultiplier: 0.01
+	 speed: 5
+	 lifetime: 28
+
+            }
+        }
+    ]
+

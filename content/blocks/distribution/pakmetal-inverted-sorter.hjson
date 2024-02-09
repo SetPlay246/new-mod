@@ -1,0 +1,18 @@
+type: Sorter
+name: pak-metal-inv-sorter
+localizedName: Конвеерный инвертированый сортировщик из пак-метала
+description: Выводит выбранный предмет по бокам
+health: 80
+invert: true
+    research: {
+        parent: pakmetal-sorter
+        requirements: [
+            pakmetal/400
+            redton/200
+        ]
+    },
+
+    requirements: [
+        pakmetal/10
+        redton/4
+    ]

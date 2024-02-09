@@ -1,0 +1,16 @@
+type: recource
+name: protocrystal
+localizedName: Протокристалл
+explosiveness: 0
+flammability: 0
+radioactivity: 30
+color: 4DA6FFFF
+cost: 1
+hiddenOnPlanets: [
+serpulo
+erekir
+]
+hardness: 2
+research: {
+    parent: start-pod
+}

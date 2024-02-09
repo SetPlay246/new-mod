@@ -1,0 +1,24 @@
+type: PayloadConveyor
+Name: Большегрузный конвеер из пак-стали
+category: units
+size: 3
+health: 300
+
+moveTime: 60
+canOverdrive: false
+underBullets: true
+
+requirements: [
+    pakstell/10
+    slagblock/6
+    kiromanilite/2
+]
+
+research: {
+    parent: pakmetal-conw
+    requirements: [
+        slagblock/300
+        pakstell/500
+        kiromanilite/100
+    ]
+}

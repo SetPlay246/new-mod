@@ -1,0 +1,79 @@
+name: pajay cannon
+type: tank
+outlineColor: 1B1E26FF
+treadPullOffset: 3
+research: {
+    parent: constr-tank
+	objectives: [
+	    gun-c
+	]
+}
+treadRects:[{
+x: 0
+width: 10
+height: 10
+}
+]
+targetAir: false
+flying: false
+health: 500
+armor: 1
+speed: 0.75
+rotateSpeed: 3.5
+hitSize: 15
+rotateMoveFirst: true
+omniMovement: false
+weapons:[
+{
+name: t1-cannon
+reload: 100
+shootY: 7
+shootSound: bang
+rotate: true
+rotateSpeed: 2.2
+mirror: false
+alternate: false
+range: 40
+top: true
+recoil: 0.6
+x: 0
+y: -1
+bullet: { 
+type: BasicBulletType
+collidesAir: false
+width: 5
+heigt: 7
+lifetime: 40
+hitSize: 4
+damage: 50
+speed: 5
+backColor: 841D14FF
+trailColor: FF0000FF
+frontColor: FF0000FF
+hitEffect:{
+type: ParticleEffect
+line: true
+particles: 6
+sizeFrom: 4
+sizeTo: 2
+length: 30
+lightColor: C92B1CFF
+colorFrom: 841D14FF
+colorTo: FF0000FF
+cone: 90
+}
+despawnEffect: {
+type: ParticleEffect
+particles: 7
+sizeFrom: 3
+sizeTo: 1
+length: 20
+interp: circleOut
+lightColor: C92B1CFF
+colorFrom: 7F7F7FFF
+colorTo: A2A2A2FF
+cone: 10
+}
+}
+}
+]

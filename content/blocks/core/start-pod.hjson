@@ -1,0 +1,24 @@
+localizedname: осколок материнского корабля
+type: CoreBlock
+category: effect
+
+    size: 4
+    health: 4000
+    itemCapacity: 5000
+    unitType: first
+    isFirstTier: true
+    alwaysUnlocked: true
+    buildVisibility: hidden
+   
+requirements: 
+  [
+  pakmetal/1000
+  redton/500
+  ]
+
+    research: {
+        root: true
+        name: ferea
+        planet: ferea
+    }
+alwaysUnlocked: true

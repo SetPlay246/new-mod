@@ -1,0 +1,77 @@
+type: Pump
+name: pakmetal-pomp
+hasLiquids: true
+hasItems: true
+liquidCapacity: 10
+size: 2
+pumpAmount: 0.07
+category: liquid
+itemCapacity: 5
+consumes: {
+       items: [
+       redton/1
+       ]
+}
+drawer: {
+type: DrawMulti
+        drawers: [
+        {
+        type: DrawRegion
+        suffix: -bottom
+        }
+                {
+        type: DrawLiquidTile
+        suffix: -liquid
+        drawLiquid: slag
+        }
+                {
+        type: DrawLiquidTile
+        suffix: -liquid
+        drawLiquid: water
+        }
+                {
+        type: DrawLiquidTile
+        suffix: -liquid
+        drawLiquid: oil
+        }
+                {
+        type: DrawLiquidTile
+        suffix: -liquid
+        drawLiquid: cryofluid
+        }
+                {
+        type: DrawLiquidTile
+        suffix: -liquid
+        drawLiquid: neoplasm
+        }
+                {
+        type: DrawLiquidTile
+        suffix: -liquid
+        drawLiquid: arkycite
+        }
+        {
+        type: DrawDefault
+        }
+        {
+        type: DrawRegion
+        suffix: -rotator
+        rotateSpeed: -8
+        spinSprite: true
+        }
+        {
+        type: DrawRegion
+        suffix: -top
+        }
+]
+}
+requirements: [
+    pakmetal/50
+    redton/20
+]
+research: {
+    parent: pakmetal-drill
+    requirements: [
+        pakmetal/1000
+        redton/600
+        ]
+}

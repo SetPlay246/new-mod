@@ -1,0 +1,88 @@
+name: pajay rocket
+type: tank
+outlineColor: 1B1E26FF
+treadPullOffset: 3
+research: {
+    parent: constr-tank
+	objectives: [
+	    gun-r
+	]
+}
+treadRects:[{
+x: 0
+width: 10
+height: 10
+}
+]
+flying: false
+targetAir: true
+health: 500
+armor: 1
+speed: 0.75
+rotateSpeed: 3.5
+hitSize: 15
+rotateMoveFirst: true
+omniMovement: false
+weapons:[
+{
+name: t1-rocket
+reload: 200
+shootX: 2.7
+shootY: -2
+shootSound: missileSmall
+rotate: true
+rotateSpeed: 2.2
+mirror: false
+alternate: false
+range: 40
+top: true
+recoil: 0.6
+x: 0
+y: -1
+parts: [
+        {
+		type: RegionPart
+		mirror: false
+                outlineColor: 1B1E26FF
+		x: 0
+		moveX: -8.92
+		progress: reload
+		suffix: "-rok-r"
+	}
+        {
+		type: RegionPart
+		mirror: false
+                outlineColor: 1B1E26FF
+		x: 0
+		moveX: -3
+		progress: reload
+		suffix: "-rok-l"
+	}
+	{
+		type: RegionPart
+		mirror: false
+                outlineColor: 1B1E26FF
+		x: 0
+		moveX: -5.96
+		progress: reload
+		suffix: "-rok"
+	}
+        {
+		type: RegionPart
+		mirror: false
+                outlineColor: 1B1E26FF
+		suffix: "-top"
+	}
+]
+bullet: { 
+type: BulletType
+collidesAir: false
+keepVelocity: false
+shootEffect: shootBig
+smokeEffect: shootBigSmoke2
+shake:1
+speed:0
+spawnUnit: rocket-t1
+}
+}
+]

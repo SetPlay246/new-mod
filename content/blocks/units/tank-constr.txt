@@ -1,0 +1,6 @@
+research: {
+    parent: constr-tank
+	objectives: [
+	    gun-c
+	]
+}

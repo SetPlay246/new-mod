@@ -1,0 +1,19 @@
+  type: LiquidRouter
+  name: pak-metal-liquid-router
+  localizedName: Трубный маршрутизатор из пак-метала
+  health: 120
+  hasPower: false
+  placeableLiquid: true
+  liquidPressure: 1
+  requirements: [
+    pakmetal/3
+    redton/2
+   ]
+  category: liquid
+  research: {
+  parent: pakmetal-cond
+  requirements: [
+        pakmetal/200
+        redton/100
+        ]
+  }

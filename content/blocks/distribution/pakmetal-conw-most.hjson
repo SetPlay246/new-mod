@@ -1,0 +1,23 @@
+type: ItemBridge
+category: distribution
+size: 1
+health: 160
+range: 6
+bufferCapacity: 5
+transportTime: 0.02
+hasPower: false
+name: pak-metal-conw-most
+localizedName: Мостовой конвеер из пак-метала
+
+    research: {
+        parent: pakmetal-junction
+        requirements: [
+            pakmetal/600
+            redton/400
+        ]
+    },
+
+    requirements: [
+        pakmetal/30
+        redton/20
+    ]

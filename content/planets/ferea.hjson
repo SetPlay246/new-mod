@@ -1,0 +1,86 @@
+generator: SerpuloPlanetGenerator
+localizedName: Фереа
+parent: sun
+iconColor: 158780
+orbitRadius: 40
+hasAtmosphere: true
+updateLighting: false
+atmosphereRadIn: 0.1
+atmosphereRadOut: 0.3
+atmosphereColor: 00d6e58b
+drawOrbit: true
+accessible: true
+alwaysUnlocked: true
+defaultCore: start-pod
+sectorSeed: 0
+startSector: 0
+sectorSize: 2.5
+clearSectorOnLose: true
+allowSectorInvasion: false
+radius: 1
+hiddenItems: [
+    sand
+    copper
+    lead
+    scrap
+    graphite
+    coal
+    titanium
+    thorium
+    silicon
+    plastanium
+    phase-fabric
+    surge-alloy
+    spore-pod
+    blast-compound
+    pyratite
+    metaglass
+    beryllium
+    oxide
+    tungsten
+    carbide
+    fissile-matter
+    dormant-cyst
+]
+cloudMesh: {
+	type: HexSkyMesh
+	planet: ferea
+	seed: 2
+	speed: 3
+	radius: 0.07
+	divisions: 5
+	color: 6b9bc794
+	octaves: 2
+	persistence: 1
+	scl: 2
+	thresh: 0.45
+}
+cloudMesh: {
+	type: HexSkyMesh
+	planet: ferea
+	seed: 1
+	speed: 2
+	radius: 0.06
+	divisions: 5
+	color: 665427aa
+	octaves: 2
+	persistence: 1
+	scl: 2
+	thresh: 0.45
+}
+mesh: {
+	type: NoiseMesh
+	seed: 262436
+	divisions: 5,
+	radius: 0.9,
+	planet: ferea
+	color1: a69333
+	color2: 547a42       
+	colorPersistence: 0.5
+	colorScale: 0.5
+	colorThreshold: 0.5
+	octaves: 4
+	persistence: 1
+	scale: 0.80
+	mag: 1.2
+}

@@ -1,0 +1,17 @@
+type: material
+name: rocket
+localizedName: Запчасти для сборки РПУ
+explosiveness: 50
+flammability: 70
+radioactivity: 0
+color: 4A4B53FF
+cost: 1
+size: 2
+hiddenOnPlanets: [
+serpulo
+erekir
+]
+hardness: 1
+research: {
+    parent: kiromanilite
+}

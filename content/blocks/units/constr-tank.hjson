@@ -1,0 +1,54 @@
+type: UnitFactory
+name: constr-tank
+size: 3
+category: units
+consumes: {
+power: 3
+}
+plans: [
+{
+    unit: t1-c
+    	requirements: [
+		pakstell/30
+		redton/20
+		kiromanilite/10
+                gun-c/1
+       ]
+    time: 2100
+  },
+{
+    unit: t1-f
+    	requirements: [
+		pakstell/30
+		redton/20
+		kiromanilite/10
+                gun-f/1
+       ]
+    time: 2100
+  },
+{
+    unit: t1-r
+    	requirements: [
+		pakstell/30
+		redton/20
+		kiromanilite/10
+                gun-r/1
+       ]
+    time: 2100
+  }
+]
+requirements: [
+    pakstell/100
+    slagblock/100
+    kiromanilite/50
+]
+
+research: {
+    parent: start-pod
+    requirements: [
+        slagblock/500
+        pakstell/200
+        kiromanilite/100
+]
+}
+

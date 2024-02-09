@@ -1,0 +1,19 @@
+name: kiromanilite-drill
+localizedName: Буровая установка из пак-стали
+  description: Элекртический бур имеющий достаточную мощьность и прочность сверла, чтобы добывать более продвинутые ресурсы
+  type: Drill
+  health: 640
+  size: 2
+  tier: 3
+  drillTime: 300
+  requirements: [
+    pakstell/25
+    kiromanilite/15
+  ]
+  category: production
+research: {
+    parent: pakmetal-drill
+	objectives: [
+	    kiromanilite
+	]
+}

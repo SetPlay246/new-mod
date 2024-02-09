@@ -1,0 +1,10 @@
+name: Аварийная посадка
+localizedName: Аварийная посадка
+alwaysUnlocked: true
+planet: ferea
+loadout: start-pod
+captureWave: 8
+difficulty: 1
+showSectorLandInfo: false
+startWaveTimeMultiplier: 0
+sector: 0
