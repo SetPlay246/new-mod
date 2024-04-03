@@ -16,7 +16,7 @@ height: 10
 ]
 flying: false
 targetAir: true
-health: 500
+health: 700
 armor: 1
 speed: 0.75
 rotateSpeed: 3.5

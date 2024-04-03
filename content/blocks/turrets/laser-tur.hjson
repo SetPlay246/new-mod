@@ -1,0 +1,77 @@
+name: pakmetal turet
+localizedName: Турель из пак-металла
+size: 2
+outlineColor: 1B1E26FF
+requirements: [
+        pakstell/80
+        protocrystal/40
+        kiromanilite/60
+]
+type: ContinuousTurret
+faceTarget: true
+shootSound: none
+loopSound: laserbeam
+loopSoundVolume: 1
+shootWarmupSpeed: 0.1
+aimChangeSpeed: 1.2
+range: 160
+rotateSpeed: 1.4
+health: 1400
+category: turret
+shootY: 7
+consumes: {
+  power: 3.0
+}
+research: {
+    parent: pakmetal-tur
+    requirements: [
+        pakstell/2000
+        protocrystal/500
+        kiromanilite/1000
+        ]
+	objectives: [
+	protocrystal
+	]
+}
+drawer: {
+    type: drawTurret
+    basePrefix: ferea-
+    parts: [
+
+           {
+suffix: -se
+mirror: true
+x: -3
+y: 3
+rot: 10
+moveRot: -20
+progress: {
+type: warmup
+}
+children: {
+type: RegionPart
+suffix: -heat
+blending: additive
+heatColor: 4DA6FFFF
+outline: false
+mirror: true
+}
+}
+{
+type: RegionPart
+suffix: -team
+blending: additive
+heatColor: 4DA6FFFF
+outline: false
+mirror: true
+        }
+]
+}
+shootType: {
+        type: PointLaserBulletType
+	collidesTeam: false
+        sprite: new-mod-protocrystal-laser
+        hitColor: 4DA6FFFF
+	damage: 15.0
+}
+

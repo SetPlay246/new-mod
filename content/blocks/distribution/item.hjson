@@ -1,0 +1,23 @@
+name: "конвеерный извлекатель из пак-стали"
+description: "работает как разгрузщик"
+health: 100
+size: 1
+hasItems: true
+update: true
+solid: true
+group: transportation
+configurable: true
+alwaysUnlocked: false
+category: distribution
+requirements:[
+pakmetal/1
+]
+research: {
+    parent: start-pod
+    requirements: [
+        pakmetal/1
+        ]
+	objectives: [
+	    pakmetal
+	]
+}

@@ -1,0 +1,22 @@
+name: "Водный бак из пак-металла"
+size: 2
+health: 500
+hasLiquids: true
+update: true
+solid: true
+outputsLiquid: true
+configurable: true
+alwaysUnlocked:true
+category:liquid
+requirements:[
+pakmetal/1
+]
+research: {
+    parent: start-pod
+    requirements: [
+        pakmetal/1
+        ]
+	objectives: [
+	    pakmetal
+	]
+}

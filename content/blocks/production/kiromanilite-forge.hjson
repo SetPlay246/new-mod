@@ -57,16 +57,16 @@ type: ParticleEffect
 }
 
 requirements: [
-    pakstell/70
-    redton/40
-    slagblock/60
+    pakstell/50
+    redton/50
+    slagblock/70
 ]
 research: {
     parent: pakstell-forge
     requirements: [
-	pakstell/400
-        slagblock/500
-        redton/400
+	pakstell/1000
+        slagblock/1500
+        redton/2000
         ]
 	objectives: [
 	slagblock

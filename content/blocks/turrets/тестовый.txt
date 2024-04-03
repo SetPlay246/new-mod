@@ -1,0 +1,2 @@
+homingPower: 0
+        homingRange: 0

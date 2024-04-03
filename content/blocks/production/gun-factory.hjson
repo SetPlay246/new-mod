@@ -111,9 +111,9 @@ drawer: {
    }
  ], 
   requirements: [
-	  new-mod-slagblock/100
+	  new-mod-slagblock/70
 	  new-mod-pakstell/50
-	  new-mod-redton/70
+	  new-mod-redton/60
   ]
   category: crafting
     research: {

@@ -6,6 +6,7 @@ requirements: [
 pakmetal/150
 ]
 type: ItemTurret
+outlineIcon: true
 shootSound: bang
 range: 210
 rotateSpeed: 3.2

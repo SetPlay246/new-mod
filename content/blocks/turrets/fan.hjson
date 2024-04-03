@@ -1,0 +1,100 @@
+name: fan
+localizedName: кулер видюхи
+size: 2
+outlineColor: 1B1E26FF
+requirements: [
+pakmetal/50
+
+]
+type: powerTurret
+powerUse : 5
+hasPower : true
+maxAmmo: 50
+ammoPerShot: 1
+shootSound: none
+range: 300
+rotateSpeed: 20
+health: 500
+category: turret
+recoil: 0
+reload: 20
+shootY: -200
+shootX: 0
+inaccuracy: 20
+outlineRadius: 0
+targetGround: true
+    shoot: {
+    firstShotDelay: 20
+    }
+
+
+drawer: {
+	type: DrawMulti
+        drawers: [
+
+        {
+        type: DrawRegion
+        suffix: -norm
+        
+        }
+        {
+        type: DrawRegion
+        suffix: -rotator
+        rotateSpeed: 4
+        spinSprite: true
+        }
+        {
+        type: DrawRegion
+        suffix: -top 
+        }
+
+        ]
+        }
+
+
+
+shootType: {
+ type: BasicBulletType
+	lifetime: 200
+	speed: 3
+	width: 20
+	height: 20
+	damage: 60
+        splashDamage: 30
+        splashDamageRadius: 30
+	sprite: bullet
+	collideaAir: true
+        collidesTiles: true
+	collidesGround: true
+	frontColor: FFD37FFF
+	backColor: D06B53FF
+        trailColor: FFD37FFF
+        trailParam: 2
+        trailLength: 9
+        trailWidth: 4
+        trailEffect: fire
+        hitSound: largeExplosion
+hitEffect:{
+type: ParticleEffect
+line: true
+particles: 15
+sizeFrom: 6
+sizeTo: 5
+length: 70
+lightColor: FFD37FFF
+colorFrom: D06B53FF
+colorTo: FFD37FFF
+cone: 360
+}
+despawnEffect: {
+            type: WaveEffect
+            lifetime: 25
+            sizeFrom: 10
+            sizeTo: 55
+            strokeFrom: 3
+            strokeTo: 0
+            lightColor: FFD37FFF
+            colorFrom: D06B53FF
+            colorTo: FFD37FFF
+}	
+}

@@ -1,0 +1,130 @@
+name: pajay cannon T2
+type: tank
+outlineColor: 1B1E26FF
+treadPullOffset: 3
+research: {
+    parent: constr-tank
+	objectives: [
+	    gun-c
+	]
+}
+treadRects:[{
+x: 0
+width: 16
+height: 16
+}
+]
+targetAir: false
+flying: false
+health: 2400
+armor: 3
+speed: 0.62
+rotateSpeed: 2.1
+hitSize: 24
+rotateMoveFirst: true
+omniMovement: false
+  weapons: [
+    {
+      name: t2-cannon
+      layerOffset: 1
+      reload: 60
+      mirror: false
+      top: true
+      x: 0
+      y: 0
+      shootY: 12
+      shake: 2
+      rotate: true
+      rotateSpeed: 1.4
+      recoils: 2
+      parts: [
+        {
+          type: RegionPart
+          suffix: -gun-l
+          under: false
+          mirror: false
+          moveY: -3
+          progress: recoil
+          recoilIndex: 0
+          heatProgress: {
+            type: recoil
+            op: blend
+            amount: 0
+            other: 0
+            recoilIndex: 1
+          }
+        }
+        {
+          type: RegionPart
+          suffix: -gun-r
+          under: false
+          mirror: false
+          moveY: -3
+          progress: recoil
+          recoilIndex: 1
+          heatProgress: {
+            type: recoil
+            op: blend
+            amount: 0
+            other: 0
+            recoilIndex: 0
+          }
+        }
+      ]
+      shoot: {
+        type: ShootMulti
+        source: {
+          type: ShootAlternate
+          barrels: 2
+          shots: 1
+          spread: 6
+        }
+        dest: [
+          {
+            type: ShootSpread
+            shots: 1
+            spread: 7
+          }
+        ]
+      }
+shootSound: shotgun
+shootCone: 45
+bullet: {
+type: BasicBulletType
+collidesAir: false
+width: 6
+heigt: 9
+lifetime: 60
+hitSize: 5
+damage: 80
+speed: 5
+backColor: 841D14FF
+trailColor: FF0000FF
+frontColor: FF0000FF
+hitEffect:{
+type: ParticleEffect
+line: true
+particles: 6
+sizeFrom: 5
+sizeTo: 3
+length: 40
+lightColor: C92B1CFF
+colorFrom: 841D14FF
+colorTo: FF0000FF
+cone: 100
+}
+despawnEffect: {
+type: ParticleEffect
+particles: 7
+sizeFrom: 4
+sizeTo: 3
+length: 20
+interp: circleOut
+lightColor: C92B1CFF
+colorFrom: 7F7F7FFF
+colorTo: A2A2A2FF
+cone: 20
+}
+      }
+    }
+  ]

@@ -1,0 +1,32 @@
+type: GenericCrafter
+category: crafting
+size: 2
+health: 1000
+itemCapacity: 10
+name: special for ticher
+
+
+craftTime: 30
+consumes: {
+    power: 0
+}
+outputItem: silicon/1
+
+requirements: [
+    copper/30
+    lead/15
+]
+
+
+drawer: [
+	{
+        type: DrawRegion
+        suffix: "-bottom"
+    }
+	{
+		type: DrawArcSmelt
+	}
+	{
+        type: DrawDefault
+    }
+]

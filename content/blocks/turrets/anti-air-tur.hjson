@@ -1,0 +1,94 @@
+name: anti air tur
+localizedName: Башня ПВО
+size: 3
+outlineColor: 1B1E26FF
+requirements: [
+pakstell/140
+kiromanilite/100
+protocrystal/70
+]
+type: ItemTurret
+outlineIcon: true
+shootSound: shootSnap
+range: 400
+rotateSpeed: 3
+health: 1700
+category: turret
+recoil: 1
+reload: 10
+shootY: 10
+shootX: -2.6
+inaccuracy: 5
+targetGround: false
+    shoot: {
+    firstShotDelay: 5
+    }
+research: {
+    parent: pakmetal-tur
+    requirements: [
+        pakstell/2400
+        kiromanilite/1600
+        protocrystal/800
+        ]
+	objectives: [
+	    protocrystal
+	]
+}
+
+drawer: {
+    type: drawTurret
+    basePrefix: ferea-
+    parts: [
+{
+suffix: -blade
+mirror: false
+moveY: -4.2
+y: 4.2
+progress: {
+type: reload
+}
+}
+{
+suffix: -top
+mirror: false
+}
+
+]
+}
+
+
+
+ammoTypes: {
+protocrystal:{
+	type: FlakBulletType
+	lifetime: 60
+	speed: 6
+	width: 6
+	height: 9
+	damage: 40
+        splashDamage: 20
+        splashDamageRadius: 20
+	sprite: bullet
+	collideaAir: true
+	frontColor: 4DA6FFFF
+	backColor: 4B5BABFF
+        trailColor: 4B5BABFF
+        trailParam: 2
+        trailLength: 8
+        trailWidth: 2
+        trailEffect: none
+hitEffect:{
+type: ParticleEffect
+line: true
+particles: 18
+sizeFrom: 4
+sizeTo: 2
+length: 50
+lightColor: 4DA6FFFF
+colorFrom: 4DA6FFFF
+colorTo: 4B5BABFF
+cone: 360
+}
+despawnEffect: none
+	}
+}
