@@ -1,0 +1,35 @@
+	type: Reconstructor
+	size: 3
+category: units
+	constructTime: 1200
+	consumes: {
+		power: 3
+		items: {
+			items: [
+				{item: pakstell, amount: 120}
+				{item: kiromanilite, amount: 90}
+				{item: protocrystal, amount: 60}
+			]
+		}
+	}
+	upgrades: [
+		[t1-c, t2-c]
+		[t1-f, t2-f]
+                [t1-r, t2-r]
+	]
+        requirements: [
+    pakstell/200
+    slagblock/200
+    kiromanilite/150
+]
+
+research: {
+    parent: constr-tank
+    requirements: [
+        slagblock/2000
+        pakstell/1000
+        kiromanilite/800
+        protocrystal/500
+]
+}
+	

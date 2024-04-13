@@ -45,7 +45,7 @@ bullet: {
     lifetime: 45
     despawnEffect: none
     speed: 3.5
-    damage: 60
+    damage: 30
     width: 0.01
     height: 0.01
     hitEffect: {

@@ -45,13 +45,14 @@ omniMovement: false
           mirror: false
           moveY: -3
           progress: recoil
+layer: 65
           recoilIndex: 0
           heatProgress: {
             type: recoil
             op: blend
             amount: 0
             other: 0
-            recoilIndex: 1
+            recoilIndex: 0
           }
         }
         {
@@ -61,13 +62,14 @@ omniMovement: false
           mirror: false
           moveY: -3
           progress: recoil
+layer: 65
           recoilIndex: 1
           heatProgress: {
             type: recoil
             op: blend
             amount: 0
             other: 0
-            recoilIndex: 0
+            recoilIndex: 1
           }
         }
       ]
@@ -83,7 +85,7 @@ omniMovement: false
           {
             type: ShootSpread
             shots: 1
-            spread: 7
+            spread: 1
           }
         ]
       }
@@ -92,15 +94,21 @@ shootCone: 45
 bullet: {
 type: BasicBulletType
 collidesAir: false
-width: 6
+width: 7
 heigt: 9
 lifetime: 60
 hitSize: 5
-damage: 80
-speed: 5
-backColor: 841D14FF
-trailColor: FF0000FF
-frontColor: FF0000FF
+damage: 120
+        splashDamageRadius: 10
+        splashDamage: 20
+        speed: 5
+        frontColor: 66FFE3FF
+	backColor: D02B9EFF
+        trailColor: F242FBFF
+        trailParam: 2
+        trailLength: 4
+        trailWidth: 2
+        trailEffect: none
 hitEffect:{
 type: ParticleEffect
 line: true
@@ -108,9 +116,9 @@ particles: 6
 sizeFrom: 5
 sizeTo: 3
 length: 40
-lightColor: C92B1CFF
-colorFrom: 841D14FF
-colorTo: FF0000FF
+lightColor: 4DA6FFFF
+colorFrom: 4DA6FFFF
+colorTo: 4B5BABFF
 cone: 100
 }
 despawnEffect: {

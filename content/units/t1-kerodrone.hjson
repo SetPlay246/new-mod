@@ -1,0 +1,66 @@
+name: KeroDrone t1
+outlineColor: 1B1E26FF
+type: mech
+hitSize: 15
+flying: false
+health: 500
+armor: 0
+speed: 0.6
+drag: 0.70
+rotateSpeed: 2
+baseRotateSpeed: 4
+range: 200
+faceTarget: true
+weapons:[
+{
+name: t1-kerodrone-gun
+x: 0
+y: 0
+mirror: false
+reload: 16
+range: 40
+alternate: false
+rotate: false
+top: false
+shootY: 8
+shootX: 4
+shootSound: pew
+bullet: { 
+type: BasicBulletType
+collidesAir: true
+width: 4
+heigt: 6
+lifetime: 40
+hitSize: 3
+damage: 10
+speed: 5
+backColor: 841D14FF
+trailColor: FF0000FF
+frontColor: FF0000FF
+hitEffect:{
+type: ParticleEffect
+line: true
+particles: 6
+sizeFrom: 4
+sizeTo: 2
+length: 30
+lightColor: C92B1CFF
+colorFrom: 841D14FF
+colorTo: FF0000FF
+cone: 90
+}
+despawnEffect: {
+type: ParticleEffect
+particles: 7
+sizeFrom: 3
+sizeTo: 1
+length: 20
+interp: circleOut
+lightColor: C92B1CFF
+colorFrom: 7F7F7FFF
+colorTo: A2A2A2FF
+cone: 10
+}
+}
+}]
+alwaysUnlocked: true

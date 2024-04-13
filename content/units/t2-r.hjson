@@ -1,0 +1,156 @@
+name: pajay rocket T2
+type: tank
+outlineColor: 1B1E26FF
+treadPullOffset: 3
+research: {
+    parent: constr-tank
+	objectives: [
+	    gun-r
+	]
+}
+treadRects:[{
+x: 0
+width: 16
+height: 16
+}
+]
+targetAir: false
+flying: false
+health: 2400
+armor: 3
+speed: 0.62
+rotateSpeed: 2.1
+hitSize: 24
+fogrange: 100
+rotateMoveFirst: true
+omniMovement: false
+  weapons: [
+           {
+      name: t2-rocket
+      layerOffset: 1
+      reload: 6
+      mirror: false
+      top: true
+      x: 0
+      y: 0
+      shootY: 4
+      shake: 2
+      rotate: true
+      rotateSpeed: 2.5
+      recoils: 4
+      recoil: 0
+      shoot:               {
+        type: ShootMulti
+        source:          {
+          type: ShootAlternate
+          barrels: 4
+          shots: 1
+          spread: 4
+                         }
+        dest: [
+          {
+            type: ShootSpread
+            shots: 1
+            spread: 0
+          }
+              ]
+                           }
+parts: [
+        {
+          type: RegionPart
+          suffix: -gun
+          under: false
+          mirror: false
+          moveY: -2
+          x: -6
+          progress: recoil
+          recoilIndex: 0
+          heatProgress: {
+            type: recoil
+            op: blend
+            amount: 0
+            other: 0
+            recoilIndex: 0
+          }
+        }
+        {
+          type: RegionPart
+          suffix: -gun
+          under: false
+          mirror: false
+          moveY: -2
+          x: -2
+          progress: recoil
+          recoilIndex: 1
+          heatProgress: {
+            type: recoil
+            op: blend
+            amount: 0
+            other: 0
+            recoilIndex: 1
+          }
+        }
+        {
+          type: RegionPart
+          suffix: -gun
+          under: false
+          mirror: false
+          moveY: -2
+          x: 2
+          progress: recoil
+          recoilIndex: 2
+          heatProgress: {
+            type: recoil
+            op: blend
+            amount: 0
+            other: 0
+            recoilIndex: 2
+          }
+        }
+        {
+          type: RegionPart
+          suffix: -gun
+          under: false
+          mirror: false
+          moveY: -2
+          x: 6
+          progress: recoil
+          recoilIndex: 3
+          heatProgress: {
+            type: recoil
+            op: blend
+            amount: 0
+            other: 0
+            recoilIndex: 3
+          }
+        }
+      ]
+shootSound: missile
+shootCone: 45
+bullet: {
+        type: MissileBulletType
+        shootEffect: shootHealYellow                                                       
+        hitEffect: blastExplosion
+        despawnHit: true
+        damage: 8
+        speed: 6
+        keepVelocity: false
+        frontColor: 4DA6FFFF
+        backColor: 66FFE3FF
+        trailColor: E94CC7FF
+        lifetime: 65
+        homingPower: 0
+        homingRange: 50
+        weaveScale: 2
+        weaveMag: 5
+        splashDamageRadius: 10
+        splashDamage: 5
+        lightning: 4
+        lightningColor: E94CC7FF
+        lightningDamage: 4
+        lightningLength: 6
+        lightningCone: 360
+        lightningLengthRand: 6
+}
+      }
+      ]
