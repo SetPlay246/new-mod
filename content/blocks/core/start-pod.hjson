@@ -1,4 +1,5 @@
-localizedname: осколок материнского корабля
+name: AI Drone Escape Capsule
+description: The simplest flight device designed to save the carrier and the AI itself
 type: CoreBlock
 category: effect
 

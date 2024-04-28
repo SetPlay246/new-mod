@@ -1,0 +1,6 @@
+block.new-mod-.name=
+block.new-mod-.description=
+block.new-mod-nova-start-pod.name=Д.М.П
+item.new-mod-nova-start-pod.name=Ванстариевая сталь
+liquid.new-mod-nova-start-pod.name=Радиоактивная вода
+unit.exogenesis-assault.name=Штурм

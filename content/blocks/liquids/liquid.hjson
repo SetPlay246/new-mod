@@ -7,7 +7,7 @@ solid: true
 outputsLiquid: true
 configurable: true
 alwaysUnlocked:true
-category:liquid
+category: logic
 requirements:[
 pakmetal/1
 ]

@@ -138,7 +138,7 @@ bullet: {
         frontColor: 4DA6FFFF
         backColor: 66FFE3FF
         trailColor: E94CC7FF
-        lifetime: 65
+        lifetime: 55
         homingPower: 0
         homingRange: 50
         weaveScale: 2

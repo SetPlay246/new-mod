@@ -1,7 +1,6 @@
   type: Conveyor
-  name: pakmetal-conw
-  localizedName: Конвеер из пак-метала
-  description: совсем простой и мало эффективный ковеер
+  name: A pack metal conveyor
+  description: A very simple and little effective coveer
   category: distribution
   speed: 0.075
   displayedSpeed: 0.075

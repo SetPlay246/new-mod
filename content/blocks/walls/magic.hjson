@@ -1,7 +1,7 @@
 name: "стена из кироманилита"
 health: 1000
 alwaysUnlocked:false
-category: defense
+category: logic
 requirements:[
 pakmetal/1
 ]

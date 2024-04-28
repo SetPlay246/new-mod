@@ -8,7 +8,7 @@ solid: true
 group: transportation
 configurable: true
 alwaysUnlocked: false
-category: distribution
+category: logic
 requirements:[
 pakmetal/1
 ]

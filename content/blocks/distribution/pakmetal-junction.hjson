@@ -1,7 +1,7 @@
 type: Junction
     category: distribution
-    name: pak-metal-junction
-    localizedName: Конвеерный перекресток из пак-метала
+    name: Conveyor pak metal junction
+    description: It does not allow the premonitions to mix when crossing convoys
     health: 60
 
     research: {

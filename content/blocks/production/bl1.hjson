@@ -13,8 +13,8 @@ consumes: {
 outputItem: silicon/1
 
 requirements: [
-    copper/30
-    lead/15
+    titanium/3000
+    silicon/3000
 ]
 
 

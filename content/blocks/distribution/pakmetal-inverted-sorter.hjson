@@ -1,7 +1,6 @@
 type: Sorter
-name: pak-metal-inv-sorter
-localizedName: Конвеерный инвертированый сортировщик из пак-метала
-description: Выводит выбранный предмет по бокам
+name: Conveyor pak metal inverted sorter
+description: Displays the selected item on the sides
 health: 80
 invert: true
     research: {
