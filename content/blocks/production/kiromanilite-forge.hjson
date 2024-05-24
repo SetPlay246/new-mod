@@ -5,7 +5,8 @@ health: 1500
 hasLiquid: true
 liquidCopacity: 10
 itemCapacity: 15
-name: Плавильня Кироманилита
+name: Cyromanilite Foundry
+description: Fuses redton with metals in slag
 craftTime: 90
 consumes: {
     power: 1.5

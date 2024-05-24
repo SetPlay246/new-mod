@@ -1,4 +1,6 @@
-type: Wall
+name: Slagblock wall
+description: Construction of bonded slagblocks
+    type: Wall
     category: defense
     size: 1
 

@@ -1,6 +1,6 @@
 type: material
-name: slagblock
-localizedName: Шлакоблок
+name: Slagblock
+description: Excellent building material, strong enough and easy to manufacture
 explosiveness: 0
 flammability: 0
 radioactivity: 0

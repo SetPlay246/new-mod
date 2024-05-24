@@ -1,6 +1,6 @@
 type: ConsumeGenerator
-name: pak-metal-generator
-localizedName: Генератор из пак-металла
+name: pak metal generator
+description: Generates energy due to the pressure of the air heated by the slag
 health: 300
 size: 2
 powerProduction: 1

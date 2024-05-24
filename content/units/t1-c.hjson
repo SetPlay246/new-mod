@@ -1,4 +1,5 @@
 name: pajay cannon
+description:a simple pajay tank armed with a cannon
 type: tank
 outlineColor: 1B1E26FF
 treadPullOffset: 3
@@ -18,7 +19,7 @@ targetAir: false
 flying: false
 health: 700
 armor: 1
-speed: 0.75
+speed: 0.85
 rotateSpeed: 3.5
 hitSize: 15
 rotateMoveFirst: true

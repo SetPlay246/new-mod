@@ -1,5 +1,5 @@
-name: anti air tur
-localizedName: Башня ПВО
+name: Air defense turret
+description: The explosion of a part of the protocrystal sets it in motion, after which the core explodes creating shrapnel fragments
 size: 3
 outlineColor: 1B1E26FF
 requirements: [

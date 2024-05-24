@@ -1,0 +1,15 @@
+name: Rich coast
+description: There are much more resources, more opportunities here
+difficulty: 2
+alwaysUnlocked: true
+addStartingItems: true
+captureWave: 12
+startWaveTimeMultiplier: 0
+showSectorLandInfo: false
+overrideLaunchDefaults: true
+planet: ferea
+sector: 12
+loadout: start-pod
+research: {
+    parent: Аварийная посадка
+}

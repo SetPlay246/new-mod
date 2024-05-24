@@ -1,4 +1,5 @@
 type: OreBlock
 variants: 3
 itemDrop: concretite
-name: Конкрецитовые глыбы
+name: Concretite stones
+description: Bulk material, an analogue of cement

@@ -1,7 +1,6 @@
 type: Sorter
-name: pak-metal-sorter
-localizedName: Конвеерный сортировщик из пак-метала
-description: Пропускает выбранный предмет в перед
+name: Conveyor pak metal sorter
+description: Skips the selected item in front of
 health: 80
     research: {
         parent: pakmetal-router

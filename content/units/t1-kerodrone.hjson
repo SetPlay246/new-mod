@@ -6,7 +6,7 @@ flying: false
 health: 500
 armor: 0
 speed: 0.6
-drag: 0.70
+drag: 0.8
 rotateSpeed: 2
 baseRotateSpeed: 4
 range: 200

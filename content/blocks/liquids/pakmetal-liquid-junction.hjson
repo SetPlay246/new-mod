@@ -1,6 +1,6 @@
   type: LiquidJunction
-  name: pak-metal-liquid-junction
-  localizedName: Трубный перекрёсток из пак-метала
+  name: Pak metal liquid junction
+  description: A pipe intersection that does not mix liquids
   health: 120
   hasPower: false
   liquidPressure: 1

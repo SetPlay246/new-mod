@@ -1,5 +1,5 @@
 type: OreBlock
 variants: 3
 itemDrop: pakmetal
-name: Залежа пак-металла
-
+name: Pak metal ore
+description: The base metal on this planet has good structural strength

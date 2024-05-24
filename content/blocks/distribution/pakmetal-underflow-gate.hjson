@@ -1,6 +1,6 @@
 type: OverflowGate
-name: Конвеерный избыточный затвор из пак-метала
-description: Выводит предметы по бокам, если передний путь заблокирован
+name: Conveyor pak metal underflow gate
+description: Displays items on the sides if the front path is blocked
 health: 80
 invert: true
 category: distribution

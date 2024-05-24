@@ -1,6 +1,6 @@
   type: conduit
-  name: pak-metal-cound
-  localizedName: Труба из пак-метала
+  name: Pak metal cound
+  description: Carries liquids forward
   health: 60
   liquidPressure: 1
 bridgeReplacement: pakmetal-liquid-most

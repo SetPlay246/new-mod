@@ -4,8 +4,8 @@ size: 2
 health: 700
 itemCapacity: 30
 liquidCapacity: 10
-name: concretite-mixer
-localizedName: Миксерная печь конкрецита
+name: Concretite mixing forge
+description: Mixes powdered concretite with slag to obtain a mixture similar to concrete, later bakes the mixture into slag blocks
 craftEffect:{
 type: ParticleEffect
     particles: 5

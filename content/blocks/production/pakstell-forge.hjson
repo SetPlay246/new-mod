@@ -3,7 +3,8 @@ category: crafting
 size: 2
 health: 1300
 itemCapacity: 10
-name: Плавильня пак-стали
+name: Pak Steel Foundry
+description: Tempers pack metal under high pressure
 craftEffect: {
 type: ParticleEffect
 line: true

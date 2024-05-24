@@ -1,6 +1,6 @@
   type: LiquidBridge
-  name: pak-metal-liquid-most
-  localizedName: Мостовой трубопровод из пак-метала
+  name: Pak metal liquid bridge
+  description: It is able to carry liquids above ground, overcoming difficult terrain
   health: 160
   hasPower: false
   range: 5

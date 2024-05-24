@@ -1,6 +1,6 @@
 type: material
-name: pakmetal
-localizedName: Пак-металл
+name: Pak metal
+description: The base metal on this planet has good structural strength
 explosiveness: 0
 flammability: 0
 radioactivity: 0

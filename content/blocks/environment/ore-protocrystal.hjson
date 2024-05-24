@@ -1,4 +1,5 @@
 type: OreBlock
 variants: 3
 itemDrop: protocrystal
-name: Нарост протокристалов
+name: Colony of protocrystals
+description: A useful crystal capable of breaking light and energy, explodes with many fragments when damaged

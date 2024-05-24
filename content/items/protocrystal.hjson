@@ -1,9 +1,9 @@
 type: recource
-name: protocrystal
-localizedName: Протокристалл
-explosiveness: 0
+name: Protocrystal
+description: A useful crystal capable of breaking light and energy, explodes with many fragments when damaged
+explosiveness: 0.7
 flammability: 0
-radioactivity: 30
+radioactivity: 0.4
 color: 4DA6FFFF
 cost: 1
 hiddenOnPlanets: [

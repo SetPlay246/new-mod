@@ -1,5 +1,6 @@
 generator: SerpuloPlanetGenerator
-localizedName: Фереа
+name: Ferea
+description: An unremarkable planet, to which the LPAI descended after the defeat of the mother ship
 parent: sun
 iconColor: 158780
 orbitRadius: 40

@@ -1,5 +1,6 @@
 type: PayloadConveyor
-Name: Большегрузный конвеер из пак-стали
+name: Heavy-duty conveyor
+description: It carries heavy and large loads
 category: units
 size: 3
 health: 300

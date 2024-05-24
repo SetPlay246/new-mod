@@ -1,6 +1,8 @@
+name: Tank reconstructor
+description: Modifies pajay tanks in rejay
 	type: Reconstructor
 	size: 3
-category: units
+        category: units
 	constructTime: 1200
 	consumes: {
 		power: 3

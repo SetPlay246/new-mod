@@ -1,7 +1,7 @@
   type: BeamNode
   range: 16
-  name: pak-metal-eam
-  localizedName: энергетичесий узел из пак-матала
+  name: Pak metal beam
+  description: Transmits electricity between other nodes to a facility requiring connection
   health: 60
   size: 1
   category: power

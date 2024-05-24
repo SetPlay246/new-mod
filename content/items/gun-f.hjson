@@ -1,8 +1,8 @@
 type: material
-name: flamethower
-localizedName: Запчасти для сборки огнемёта
-explosiveness: 0
-flammability: 10
+name: Flamethrower spare parts
+description: A set of spare parts for creating a weapon that releases a jet of fire and slag
+explosiveness: 0.3
+flammability: 0
 radioactivity: 0
 color: 4A4B53FF
 cost: 1

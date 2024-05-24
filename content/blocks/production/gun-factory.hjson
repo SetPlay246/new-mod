@@ -1,16 +1,16 @@
 
-type: multicraft.MultiCrafter
-  localizedName: Сборщик вооружения
-  description: Собирает вооружение для дальнейшей сборки юнитов
+  type: multicraft.MultiCrafter
+  Name: Weapon factory
+  description: makes weapons for further construction of units
   health: 1200
   itemCapacity: 20
   size: 3
-craftEffect: {
-type: ParticleEffect
-    particles: 10
-    sizeFrom: 6
-    sizeTo: 5
-    length: 7
+  craftEffect: {
+  type: ParticleEffect
+    particles: 14
+    sizeFrom: 5
+    sizeTo: 3
+    length: 10
     interp: fastSlow
     lightColor: C92B1CFF
     colorFrom: 841D14FF

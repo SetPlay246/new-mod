@@ -1,6 +1,6 @@
   type: LiquidRouter
-  name: pak-metal-liquid-router
-  localizedName: Трубный маршрутизатор из пак-метала
+  name: Pak metal liquid router
+  description: A node that allows liquid to flow in all directions
   health: 120
   hasPower: false
   placeableLiquid: true

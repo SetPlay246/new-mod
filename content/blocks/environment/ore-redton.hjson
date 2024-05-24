@@ -1,4 +1,5 @@
 type: OreBlock
 variants: 3
 itemDrop: redton
-name: Залежа крастоновой руды
+name: Redton ore
+description: An excellent metal with good electrical conductivity and magnetic properties

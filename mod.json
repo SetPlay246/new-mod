@@ -6,5 +6,5 @@
  "version": "1",
 
  "minGameVersion": "142",
- "dependencies": []
+ "dependencies": [multi-crafter]
 }

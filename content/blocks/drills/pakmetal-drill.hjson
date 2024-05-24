@@ -1,10 +1,9 @@
-name: pakmetal drill
-localizedName: Дрель из пак-металла
-  description: Простейшая установка для добычи простейших ископаемых
+  name: Pak metal drill
+  description: The simplest installation for the extraction of the simplest minerals
   type: Drill
   health: 100
   size: 1
-  tier: 1
+  tier: 2
   drillTime: 400
   requirements: [
     pakmetal/15

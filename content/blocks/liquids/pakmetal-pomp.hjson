@@ -1,5 +1,6 @@
 type: Pump
-name: pakmetal-pomp
+name: Pak metal pump
+description: Pumps the liquid with the help of a rotor rotated by the magnetic property of a broken redton
 hasLiquids: true
 hasItems: true
 liquidCapacity: 10

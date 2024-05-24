@@ -1,11 +1,13 @@
-name: kiromanilite-drill
-localizedName: Буровая установка из пак-стали
-  description: Элекртический бур имеющий достаточную мощьность и прочность сверла, чтобы добывать более продвинутые ресурсы
+  name: Kiromanilite drill
+  description: An electric drill with sufficient power and drill strength to extract more advanced resources
   type: Drill
   health: 640
   size: 2
-  tier: 3
+  tier: 4
   drillTime: 300
+  consumes: {
+  power: 1
+  }
   requirements: [
     pakstell/25
     kiromanilite/15

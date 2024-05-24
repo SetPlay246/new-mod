@@ -1,4 +1,5 @@
 name: bite-bug
+description:A large insect capable of gnawing through metal armor plates
 defaultController: SuicideAI
 type: tank
 outlineColor: 1B1E26FF

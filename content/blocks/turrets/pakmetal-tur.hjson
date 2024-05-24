@@ -1,5 +1,5 @@
-name: pakmetal turet
-localizedName: Турель из пак-металла
+name: Pak metal turret
+description: It shoots redton due to its magnetic properties
 size: 2
 outlineColor: 1B1E26FF
 requirements: [

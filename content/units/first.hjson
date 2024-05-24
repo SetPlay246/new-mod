@@ -1,4 +1,5 @@
-
+name: Drone "first"
+description:The drone, under the influence of AI, was created for creation, but for greater survival, 2 auto guns were used
 type: flying
 flying: true
 outlineColor: 1B1E26FF

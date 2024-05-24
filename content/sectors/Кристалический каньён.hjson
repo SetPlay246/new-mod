@@ -1,0 +1,15 @@
+name: Crystal canyon
+description: A captured core has been detected, we need to act quickly
+difficulty: 4
+alwaysUnlocked: true
+addStartingItems: true
+captureWave: 8
+startWaveTimeMultiplier: 0
+showSectorLandInfo: false
+overrideLaunchDefaults: true
+planet: ferea
+sector: 3
+loadout: start-pod
+research: {
+    parent: Богатые берега
+}

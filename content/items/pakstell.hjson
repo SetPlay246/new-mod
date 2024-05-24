@@ -1,6 +1,6 @@
 type: material
-name: pakstell
-localizedName: Пак-сталь
+name: Pak steel
+description: A reinforced version of pack metal, and quite light
 explosiveness: 0
 flammability: 0
 radioactivity: 0

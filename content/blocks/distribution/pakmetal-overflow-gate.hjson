@@ -1,7 +1,6 @@
 type: OverflowGate
-name: pak-metal-over-gate
-localizedName: Конвеерный избыточный шлюз
-description: Выводит предметы вперёд, только если боковые пути заблокированы
+name: Conveyor pak metal overflow gate
+description: Brings items forward only if the side paths are blocked
 health: 80
 category: distribution
     research: {

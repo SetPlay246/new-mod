@@ -1,5 +1,5 @@
-name: pakmetal turet
-localizedName: Турель из пак-металла
+name: Laser beam turret
+description: Creates a powerful beam of energy by breaking it with a protocrystal to the state of a laser
 size: 2
 outlineColor: 1B1E26FF
 requirements: [

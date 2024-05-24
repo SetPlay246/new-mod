@@ -1,5 +1,6 @@
 type: UnitFactory
-name: constr-tank
+name: Tank constructor
+description: Creates pajay tanks and attaches the necessary weapons
 size: 3
 category: units
 consumes: {

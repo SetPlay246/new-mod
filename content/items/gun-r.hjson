@@ -1,8 +1,8 @@
 type: material
-name: rocket
-localizedName: Запчасти для сборки РПУ
-explosiveness: 50
-flammability: 70
+name: Rocket launcher spare parts
+description: A set of spare parts for creating a launcher, missiles are included :)
+explosiveness: 0.5
+flammability: 0
 radioactivity: 0
 color: 4A4B53FF
 cost: 1

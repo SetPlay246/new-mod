@@ -1,5 +1,5 @@
   type: Conveyor
-  name: A pack metal conveyor
+  name: A pak metal conveyor
   description: A very simple and little effective coveer
   category: distribution
   speed: 0.075

@@ -1,4 +1,5 @@
-name: pajay cannon T2
+name: rejay cannon
+description: medium armored tank armed with a cannon
 type: tank
 outlineColor: 1B1E26FF
 treadPullOffset: 3

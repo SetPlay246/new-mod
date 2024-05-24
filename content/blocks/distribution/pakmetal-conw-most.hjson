@@ -6,7 +6,7 @@ range: 6
 bufferCapacity: 5
 transportTime: 0.02
 hasPower: false
-name: Pack metal bridge conveyor
+name: Pak metal bridge conveyor
 description: It is able to carry objects above the ground, overcoming difficult terrain
     research: {
         parent: pakmetal-junction

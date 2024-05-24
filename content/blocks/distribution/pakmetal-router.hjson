@@ -1,7 +1,7 @@
 type: Router
     category: distribution
-    name: pak-metal-router
-    localizedName: Конвеер маршрутизатор из пак-метала
+    name: Conveyor pak metal router
+    description: Displays harmful signs in all directions
     health: 60
 
     research: {

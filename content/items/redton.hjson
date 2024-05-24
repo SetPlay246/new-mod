@@ -1,9 +1,9 @@
 type: material
-name: redton
-localizedName: Крастон
+name: Redton
+description: An excellent metal with good electrical conductivity and magnetic properties
 explosiveness: 0
 flammability: 0
-radioactivity: 0.1
+radioactivity: 0
 color: C92B1CFF
 cost: 1
 hiddenOnPlanets: [

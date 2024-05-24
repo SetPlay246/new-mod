@@ -1,7 +1,7 @@
 type: material
-name: cannon
-localizedName: Запчасти для сборки пушки
-explosiveness: 0
+name: Cannon Spare Parts
+description: A set of spare parts for creating weapons firing armor-piercing projectiles
+explosiveness: 0.1
 flammability: 0
 radioactivity: 0
 color: 4A4B53FF

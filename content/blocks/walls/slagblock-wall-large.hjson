@@ -1,4 +1,6 @@
-type: Wall
+name: Slagblock large wall
+description: Large construction of bonded slagblocks
+    type: Wall
     category: defense
     size: 2
 
