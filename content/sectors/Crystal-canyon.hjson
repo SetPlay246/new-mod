@@ -1,0 +1,16 @@
+{
+difficulty: 4
+alwaysUnlocked: true
+addStartingItems: true
+captureWave: 8
+startWaveTimeMultiplier: 0
+showSectorLandInfo: false
+planet: ferea
+name: Crystal canyon
+sector: 30
+loadout: start-pod
+"research": {
+            "parent": "Rich-coast"
+        
+}
+}

@@ -1,0 +1,16 @@
+{
+difficulty: 2
+alwaysUnlocked: true
+addStartingItems: true
+captureWave: 12
+startWaveTimeMultiplier: 0
+showSectorLandInfo: false
+planet: ferea
+name: Rich coast
+sector: 9
+loadout: start-pod
+"research": {
+            "parent": "Emergency-landing"
+        
+}
+}
