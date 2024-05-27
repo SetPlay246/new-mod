@@ -7,7 +7,7 @@ startWaveTimeMultiplier: 0
 showSectorLandInfo: false
 planet: ferea
 name: Crystal canyon
-sector: 30
+sector: 20
 loadout: start-pod
 "research": {
             "parent": "Rich-coast"

@@ -7,7 +7,7 @@ startWaveTimeMultiplier: 0
 showSectorLandInfo: false
 planet: ferea
 name: Rich coast
-sector: 9
+sector: 42
 loadout: start-pod
 "research": {
             "parent": "Emergency-landing"

@@ -3,10 +3,10 @@
   type: Drill
   health: 640
   size: 2
-  tier: 4
+  tier: 5
   drillTime: 300
   consumes: {
-  power: 1
+  power: 0.2
   }
   requirements: [
     pakstell/25
